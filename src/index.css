@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+  }
+
+  .content{
+    margin-bottom: 80px;
+  }
+  .footer{
+   
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }
+  .image{
+    /* width: 500px !important; */
+    /* height: 600px !important; */
+  }
